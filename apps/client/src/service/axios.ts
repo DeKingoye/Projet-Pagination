@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = (process.env['REACT_APP_API_URL'] ?? 'http://localhost:3333')+'/api';
+const baseUrl = (process.env['NX_API_URL'] ?? 'http://localhost:3333')+'/api';
 
 export enum SORT {
     asc='ASC',
