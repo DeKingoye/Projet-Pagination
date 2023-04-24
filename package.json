@@ -8,6 +8,8 @@
     "api": "nx serve api",
     "start": "nx serve",
     "build": "nx build",
+    "build:client": "nx build client",
+    "build:api": "nx build api",
     "test": "nx test"
   },
   "private": true,
